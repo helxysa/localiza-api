@@ -1,31 +1,26 @@
 # Adonis fullstack application
 
-This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
-
-1. Bodyparser
-2. Session
-3. Authentication
-4. Web security middleware
-5. CORS
-6. Edge template engine
-7. Lucid ORM
-8. Migrations and seeds
-
+// ... existing code ...
 ## Setup
 
-Use the adonis command to install the blueprint
+// ... existing code ...
+### Instalação
+
+Para instalar o projeto, use o comando adonis:
 
 ```bash
 adonis new yardstick
 ```
 
-or manually clone the repo and then run `npm install`.
+ou clone o repositório manualmente e, em seguida, execute `npm install`.
 
+### Banco de Dados
+
+Este projeto utiliza o PostgreSQL como banco de dados. Certifique-se de ter o PostgreSQL instalado e configurado corretamente antes de executar as migrações.
 
 ### Migrations
 
-Run the following command to run startup migrations.
-
+// ... existing code ...
 ```js
 adonis migration:run
 ```
